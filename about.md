@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hey there!
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm Nikhil and this is my blog.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I speak code in this blog.
+So, when I say 'port', I'm not refering to a place where ships dock. Similarly, a thread here is no longer a thin strand of cotton and executing a program is not at all the same thing as killing it.
+
+I also write two other blogs—[10minread](https://10minread.blogspot.in) and [Byte Soup](https://bytesoup.blogspot.in).
+
+You can reach me from the links below.
