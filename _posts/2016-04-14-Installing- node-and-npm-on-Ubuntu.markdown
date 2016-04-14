@@ -4,16 +4,16 @@ title:  "Installing node and npm on Ubuntu"
 date:   2016-04-14 10:00:00 +0530
 ---
 
-##Node.js
+## Node.js
 Node.js is an open-source, cross-platform runtime environment for developing server-side Web applications.
 
-##npm
+## npm
 Node Package Manager(npm) is a package manager for Node.js with hundreds of thousands of packages. It's main goal is automated dependency and package management.
 
-##nvm
+## nvm
 Node version Manager(nvm) is used to manage multiple versions of node installations on same machine. You don't need it usually, so we are not looking at it now.
 
-##Installing node and npm
+## Installing node and npm
 There are several ways to install node and npm. The following installation method worked fine for me.
 
 Type these commands in your terminal.
