@@ -13,6 +13,7 @@ github_username:  nikhilmopidevi
 # Build settings
 markdown: kramdown
 permalink: pretty
+future: true
 
 # Google Services
 google_analytics: UA-77180736-1
