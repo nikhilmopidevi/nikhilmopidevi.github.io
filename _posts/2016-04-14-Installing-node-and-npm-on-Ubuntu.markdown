@@ -2,6 +2,7 @@
 layout: post
 title:  "Installing node and npm on Ubuntu"
 date:   2016-04-14 10:00:00 +0530
+comments: true
 ---
 
 ## Node.js

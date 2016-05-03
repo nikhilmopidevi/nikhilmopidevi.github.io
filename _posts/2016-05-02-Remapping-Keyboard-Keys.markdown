@@ -2,6 +2,7 @@
 layout: post
 title:  "Remapping Keyboard Keys"
 date:   2016-05-02 10:00:00 +0530
+comments: true
 ---
 <br>
 Recently, the spring beneath the Backspace key on my keyboard lost its tautness. I needed to press it hard to make it work. So, I decided to swap that key with the Insert key which is right above it.
