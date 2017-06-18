@@ -2,6 +2,7 @@
 layout: post
 title:  "Remapping Keyboard Keys"
 date:   2016-05-02 10:00:00 +0530
+tags: [remapping, keyboard, keyboard keys, XKB, Ubuntu]
 comments: true
 ---
 <br>
