@@ -41,6 +41,11 @@
     color: $text-color-light;
     font-weight: $font-weight-base-normal;
   }
+  
+  ol,
+  ul {
+    margin-top: -1em;
+  }
 }
 
 .post-list {
