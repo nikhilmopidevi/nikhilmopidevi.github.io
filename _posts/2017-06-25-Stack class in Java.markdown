@@ -2,7 +2,7 @@
 layout: post
 title:  "Stack class in Java"
 date:   2017-06-25 10:00:00 +0530
-tags: [Java, Collections, Java Collections, Java Collections Framework, Overview, Stack]
+tags: [Java, Collections, Java Collections, Java Collections Framework, Stack, Stack class]
 comments: true
 ---
 
