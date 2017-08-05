@@ -66,7 +66,7 @@ Stack is a linear data structure which follows the Last-In-First-Out (LIFO) appr
 
 To make use of stack in our programs, we can either use the Stack class or use an implementation of the Deque interface such as ArrayDeque or LinkedList to implement a stack. 
 
-* [Stack class]()
+* [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %})
 * [Stack using ArrayDeque]()
 * [Stack using LinkedList]()
 
