@@ -39,6 +39,7 @@ public class Main {
         while(!stack.empty()) {
             System.out.print(stack.pop() + " ");
         }
+
     }
 }
 {% endhighlight %}
