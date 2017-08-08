@@ -68,7 +68,7 @@ To make use of stack in our programs, we can either use the Stack class or use a
 
 * [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %})
 * [Stack using ArrayDeque]()
-* [Stack using LinkedList]()
+* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList %})
 
 ## Queue 
 Queue is a linear data structure which orders elements in a First-In-First-Out (FIFO) manner.
