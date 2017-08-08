@@ -108,5 +108,5 @@ Usually, a stack doesn't allow searching through its elements without popping th
 Now since you know how to use the **Stack** class in Java, check out other ways to create a stack:
 
 * [Stack using ArrayDeque]()
-* [Stack using LinkedList]()
+* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList %})
 
