@@ -103,7 +103,7 @@ int position = stack.search("Apple"); //stores the returned value in the variabl
 
 This call to the method returns the value **2**, because the string **"Apple"** is at second position from the top of the stack.
 
-Usually, a stack doesn't allow searching through its elements without popping them out. But this method allows that, and exposes all the elements of the stack. For this reason and others, **Stack** class isn't preferred. Instead, an implementation of the Deque interface such as ArrayDeque or LinkedList are typically used.
+Usually, a stack doesn't allow searching through its elements without popping them out. But this method allows that, and exposes all the elements of the stack. For this reason and others, **Stack** class isn't preferred. Instead, implementations of the Deque interface such as ArrayDeque or LinkedList are typically used.
 
 Now since you know how to use the **Stack** class in Java, check out other ways to create a stack:
 
