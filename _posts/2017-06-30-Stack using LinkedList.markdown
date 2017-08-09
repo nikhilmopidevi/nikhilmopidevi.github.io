@@ -2,7 +2,7 @@
 layout: post
 title:  "Stack using LinkedList"
 date:   2017-06-30 10:00:00 +0530
-tags: [Java, Collections, Java Collections, Java Collections Framework, Stack, LinkedList]
+tags: [Java, Collections, Java Collections, Java Collections Framework, Stack, LinkedList, Deque]
 comments: true
 ---
 
