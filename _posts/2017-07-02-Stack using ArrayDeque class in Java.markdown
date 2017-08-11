@@ -20,7 +20,7 @@ Array deques have no capacity restrictions, which means they grow as necessary t
 
 **ArrayDeque** class prohibits `null` elements. Even if it had allowed, it is not recommended to insert nulls because `null` is used as a special return value by various methods to indicate that the deque is empty.
 
-According to Java Docs, **ArrayDeque** class is likely to be faster than [Stack]() when used as a stack, and faster than [LinkedList]() when used as a queue.
+According to Java Docs, **ArrayDeque** class is likely to be faster than [Stack]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %}) when used as a stack, and faster than [LinkedList]() when used as a queue.
 
 The following example demonstrates how to implement a stack using the **ArrayDeque** class.
 
