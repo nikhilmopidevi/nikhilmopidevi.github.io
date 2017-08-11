@@ -1,16 +1,24 @@
 ---
 layout: post
-title:  "Stack using LinkedList"
+title:  "Stack using LinkedList class in Java"
 date:   2017-06-30 10:00:00 +0530
-tags: [Java, Collections, Java Collections, Java Collections Framework, Stack, LinkedList, Deque]
+tags: [Java, Collections, Java Collections, Java Collections Framework, Stack, Linked List, LinkedList, LinkedList class, Deque]
 comments: true
 ---
 
 Stack is a linear data structure which follows the Last-In-First-Out (LIFO) approach, where the last element inserted is the first one to be removed.
 
-In this post, we'll see how to implement a stack using linked list. Java provides the **LinkedList** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
+In this post, we'll see how to implement a stack using the **LinkedList** class. Java provides the **LinkedList** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
 
-The following example demonstrates how to implement a stack using linked list.
+Methods provided by the **LinkedList** class are:
+1. push(E element)
+2. pop()
+3. peek()
+4. isEmpty()
+
+**LinkedList** class permits all elements, including `null`. But it is not recommended to insert nulls because `null` is used as a special return value by various methods to indicate that the deque is empty.
+
+The following example demonstrates how to implement a stack using the **LinkedList** class.
 
 ## Example
 
@@ -36,7 +44,7 @@ public class Main {
 
         //Iterates through the stack
         System.out.print("Current elements in the stack: ");
-        while(stack.size() != 0) {
+        while(!stack.isEmpty()) {
             System.out.print(stack.pop() + " ");
         }
 
@@ -84,21 +92,19 @@ String fruit = stack.peek(); //stores the returned string in the variable 'fruit
 
 This call to the method returns the string **"Banana"** which is at the top of the stack, but doesn't remove it from the stack.
 
-#### **4) size()**
-This method returns the number of elements in the stack represented by this list.
-
-We can use this method to check if the stack is empty.
+#### **4) isEmpty()**
+This method tests if the stack is empty. It returns **true** if the stack is empty or **false** otherwise.
 
 {% highlight java %}
-//This loop continues to execute till the size of the stack is zero
-while(stack.size() != 0) {
+//This loop continues to execute till the stack is empty
+while(!stack.isEmpty()) {
     //some code
 }
 {% endhighlight %}
 
 The above `while` loop continues to execute until the stack is empty.
 
-Now since you know how to implement a stack using linked list, check out other ways to create a stack:
+Now since you know how to implement a stack using the **LinkedList** class, check out other ways to create a stack:
 
 * [Stack using ArrayDeque]()
 * [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %})
