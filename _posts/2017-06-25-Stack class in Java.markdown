@@ -116,6 +116,6 @@ This call to the method returns the value **2**, because the string **"Apple"** 
 
 Now since you know how to use the **Stack** class in Java, check out other ways to create a stack:
 
-* [Stack using ArrayDeque]()
+* [Stack using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-02-Stack using ArrayDeque class in Java %})
 * [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList class in Java %})
 
