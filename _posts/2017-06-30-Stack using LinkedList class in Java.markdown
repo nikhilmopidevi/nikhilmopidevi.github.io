@@ -10,7 +10,7 @@ Stack is a linear data structure which follows the Last-In-First-Out (LIFO) appr
 
 In this post, we'll see how to implement a stack using the **LinkedList** class. Java provides the **LinkedList** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
 
-Methods provided by the **LinkedList** class are:
+Some important methods provided by the **LinkedList** class are:
 1. push(E element)
 2. pop()
 3. peek()
@@ -59,6 +59,8 @@ Current element at the top of the stack: 6
 Element popped from the stack: 6
 Current elements in the stack: 5 2 
 {% endhighlight %}
+
+Let us look closely at each method used in the above program.
 
 ## Methods 
 
