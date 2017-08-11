@@ -64,16 +64,16 @@ There are three primary implementations of the Map interface:
 ## Stack
 Stack is a linear data structure which follows the Last-In-First-Out (LIFO) approach, where the last element inserted is the first one to be removed.
 
-To make use of stack in our programs, we can either use the Stack class or use an implementation of the Deque interface such as ArrayDeque or LinkedList to implement a stack. 
+To make use of stack in our programs, we can either use the **Stack class** or use an implementation of the **Deque** interface such as **ArrayDeque** or **LinkedList** to implement a stack. 
 
 * [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %})
 * [Stack using ArrayDeque]()
-* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList %})
+* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList class in Java %})
 
 ## Queue 
 Queue is a linear data structure which orders elements in a First-In-First-Out (FIFO) manner.
 
-For implementing queue, we can use an implementation of the Deque interface such as ArrayDeque or LinkedList.
+For implementing queue, we can use an implementation of the **Deque** interface such as **ArrayDeque** or **LinkedList**.
 
 * [Queue using ArrayDeque]()
 * [Queue using LinkedList]()
