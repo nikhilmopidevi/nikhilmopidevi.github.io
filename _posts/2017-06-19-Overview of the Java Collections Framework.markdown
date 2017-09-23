@@ -76,7 +76,7 @@ Queue is a linear data structure which orders elements in a First-In-First-Out (
 For implementing queue, we can use an implementation of the **Deque** interface such as **ArrayDeque** or **LinkedList**.
 
 * [Queue using ArrayDeque]()
-* [Queue using LinkedList]()
+* [Queue using LinkedList]({{ site.baseurl }}{% post_url 2017-07-05-Queue using LinkedList class in Java %})
 
 [Java Collections Framework]: https://docs.oracle.com/javase/tutorial/collections/intro/index.html
 
