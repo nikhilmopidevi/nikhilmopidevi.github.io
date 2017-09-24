@@ -26,7 +26,7 @@ Two mostly used implementations of the List interface are:
 * ArrayList
 * LinkedList
 
-[ArrayList]() - It is a resizable-array implementation of the List interface. 
+[ArrayList]({{ site.baseurl }}{% post_url 2017-07-08-ArrayList class in Java %}) - It is a resizable-array implementation of the List interface. 
 
 [LinkedList]() - It is a doubly-linked list implementation of the List and Deque interfaces.
 
