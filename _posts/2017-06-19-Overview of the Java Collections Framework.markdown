@@ -41,7 +41,7 @@ There are three main implementations of the Set interface:
 
 [HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}) - It stores its elements in a hash table. HashSet has best performance among all the implementations, but it makes no guarantees concerning the order of iteration.
 
-[TreeSet]() - It stores its elements in a red-black tree, which is a self-balancing binary search tree. It is substantially slower than HashSet, but the elements are ordered based on their value.
+[TreeSet]({{ site.baseurl }}{% post_url 2017-07-16-TreeSet class in Java %}) - It stores its elements in a red-black tree, which is a self-balancing binary search tree. It is substantially slower than HashSet, but the elements are ordered based on their value.
 
 [LinkedHashSet]({{ site.baseurl }}{% post_url 2017-07-15-LinkedHashSet class in Java %}) - It stores its elements in a hash table with a linked list. Here, the insertion order is preserved.
 
