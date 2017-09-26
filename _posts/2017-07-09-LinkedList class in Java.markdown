@@ -2,7 +2,7 @@
 layout: post
 title:  "LinkedList class in Java"
 date:   2017-07-09 10:00:00 +0530
-tags: [Java, Collections, Java Collections, Java Collections Framework, Linked List, LinkedList, LinkedList class]
+tags: [Java, Collections, Java Collections, Java Collections Framework, List, Linked List, LinkedList, LinkedList class]
 comments: true
 ---
 
