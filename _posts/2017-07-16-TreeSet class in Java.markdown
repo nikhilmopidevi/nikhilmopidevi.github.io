@@ -14,7 +14,7 @@ Set is a collection that cannot contain duplicate elements.
 
 **TreeSet** differs from [HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}) in that it orders its elements in ascending order. That is, regardless of the insertion order of the elements, all elements are ordered in ascending order (their natural ordering to be precise).
 
-**TreeSet** class doesn't allow the **null** element.
+**TreeSet** class doesn't allow the `null` element.
 
 Java provides the **TreeSet** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
 
