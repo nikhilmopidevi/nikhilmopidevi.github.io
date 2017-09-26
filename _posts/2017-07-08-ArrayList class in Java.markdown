@@ -2,7 +2,7 @@
 layout: post
 title:  "ArrayList class in Java"
 date:   2017-07-08 10:00:00 +0530
-tags: [Java, Collections, Java Collections, Java Collections Framework, Array List, ArrayList, ArrayList class]
+tags: [Java, Collections, Java Collections, Java Collections Framework, List, Array List, ArrayList, ArrayList class]
 comments: true
 ---
 
