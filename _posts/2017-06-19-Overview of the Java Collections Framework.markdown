@@ -31,7 +31,7 @@ Two mostly used implementations of the List interface are:
 [LinkedList]({{ site.baseurl }}{% post_url 2017-07-09-LinkedList class in Java %}) - It is a doubly-linked list implementation of the List and Deque interfaces.
 
 ## Set
-Set is a collection that cannot contain duplicate elements. It may contain at most one null element (not more than one because no duplicates are allowed). 
+Set is a collection that cannot contain duplicate elements. It may contain at most one null element (not more than one because no duplicates are allowed in a set). 
 
 There are three main implementations of the Set interface:
 
