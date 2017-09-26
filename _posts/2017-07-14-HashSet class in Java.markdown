@@ -12,7 +12,7 @@ Set is a collection that cannot contain duplicate elements.
 
 **HashSet** has best performance among all the implementations. But it makes no guarantees concerning the order of iteration; in particular, it does not guarantee that the order will remain constant over time. 
 
-**HashSet** class permits the **null** element. It must be noted that a set may contain at most one null element (not more than one because no duplicates are allowed in a set).
+**HashSet** class permits the `null` element. It must be noted that a set may contain at most one null element (not more than one because no duplicates are allowed in a set).
 
 Java provides the **HashSet** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
 
