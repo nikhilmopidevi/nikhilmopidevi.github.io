@@ -12,7 +12,7 @@ Set is a collection that cannot contain duplicate elements.
 
 **LinkedHashSet** differs from [HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}) in that it maintains a doubly-linked list running through all of its entries. This linked list defines the iteration ordering, which is the order in which elements were inserted into the set (insertion order).
 
-**LinkedHashSet** class permits the **null** element. It must be noted that a set may contain at most one null element (not more than one because no duplicates are allowed in a set).
+**LinkedHashSet** class permits the `null` element. It must be noted that a set may contain at most one null element (not more than one because no duplicates are allowed in a set).
 
 Java provides the **LinkedHashSet** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
 
