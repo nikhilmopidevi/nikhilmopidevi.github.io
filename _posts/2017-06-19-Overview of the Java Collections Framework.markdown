@@ -43,7 +43,7 @@ There are three main implementations of the Set interface:
 
 [TreeSet]() - It stores its elements in a red-black tree, which is a self-balancing binary search tree. It is substantially slower than HashSet, but the elements are ordered based on their value.
 
-[LinkedHashSet]() - It stores its elements in a hash table with a linked list. Here, the insertion order is preserved.
+[LinkedHashSet]({{ site.baseurl }}{% post_url 2017-07-15-LinkedHashSet class in Java %}) - It stores its elements in a hash table with a linked list. Here, the insertion order is preserved.
 
 ## Map
 Map is an object that maps keys to values. A map cannot contain duplicate keys. 
