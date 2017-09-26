@@ -8,7 +8,7 @@ comments: true
 
 Set is a collection that cannot contain duplicate elements. 
 
-**LinkedHashSet** class is a hash table and linked list implementation of the **Set** interface, with predictable iteration order. 
+**LinkedHashSet** class is a hash table and linked list implementation of the **Set** interface. That is, it stores its elements in a hash table with a linked list. Here, the insertion order is preserved.
 
 **LinkedHashSet** differs from [HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}) in that it maintains a doubly-linked list running through all of its entries. This linked list defines the iteration ordering, which is the order in which elements were inserted into the set (insertion order).
 
