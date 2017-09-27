@@ -56,7 +56,7 @@ There are three primary implementations of the Map interface:
 
 [HashMap]({{ site.baseurl }}{% post_url 2017-07-21-HashMap class in Java %}) - It makes no guarantees concerning the order of iteration.
 
-[LinkedHashMap]() - The elements are ordered based on the order they were inserted.
+[LinkedHashMap]({{ site.baseurl }}{% post_url 2017-07-22-LinkedHashMap class in Java %}) - The elements are ordered based on the order they were inserted.
 
 [TreeMap]() - It stores its elements in a red-black tree. It is substantially slower than HashMap, but the elements are ordered based on their value.
 
