@@ -58,7 +58,7 @@ There are three primary implementations of the Map interface:
 
 [LinkedHashMap]({{ site.baseurl }}{% post_url 2017-07-22-LinkedHashMap class in Java %}) - The elements are ordered based on the order they were inserted.
 
-[TreeMap]() - It stores its elements in a red-black tree. It is substantially slower than HashMap, but the elements are ordered based on their value.
+[TreeMap]({{ site.baseurl }}{% post_url 2017-07-23-TreeMap class in Java %}) - It stores its elements in a red-black tree. It is substantially slower than HashMap, but the elements are ordered based on their value.
 
 ## Stack
 Stack is a linear data structure which follows the Last-In-First-Out (LIFO) approach, where the last element inserted is the first one to be removed.
