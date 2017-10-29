@@ -14,7 +14,7 @@ However, I think the process is more or less the same for other AWS products. So
 
 In your Elastic Beanstalk application, find your environment's endpoint.
 
-![AWS Elastic Beanstalk Endpoint]({{ site.url }}/assets/images/AWS_Elastic_Beanstalk_Endpoint.png)
+![AWS Elastic Beanstalk Endpoint]({{ site.url }}/assets/images/2017-10-15-Namecheap Domain with AWS/AWS_Elastic_Beanstalk_Endpoint.png)
 
 Skip the next section and follow the instructions in the **Namecheap** section below.
 
@@ -24,7 +24,7 @@ I assume you have already created a bucket on Amazon S3, configured it for websi
 
 In your bucket, under the **Properties** tab, click on **Static website hosting**.
 
-![Amazon S3 Bucket Endpoint]({{ site.url }}/assets/images/Amazon_S3_Bucket_Endpoint.png)
+![Amazon S3 Bucket Endpoint]({{ site.url }}/assets/images/2017-10-15-Namecheap Domain with AWS/Amazon_S3_Bucket_Endpoint.png)
 
 You should find the **endpoint** of your bucket there. Now copy that link.
 
@@ -32,11 +32,11 @@ You should find the **endpoint** of your bucket there. Now copy that link.
 
 Head over to [namecheap.com](https://www.namecheap.com) and open the **Advanced DNS** tab of your registered domain.
 
-![Namecheap Advanced DNS]({{ site.url }}/assets/images/Namecheap_Advanced_DNS.png)
+![Namecheap Advanced DNS]({{ site.url }}/assets/images/2017-10-15-Namecheap Domain with AWS/Namecheap_Advanced_DNS.png)
 
 You will find your host records in this section.
 
-![Namecheap Host Records]({{ site.url }}/assets/images/Namecheap_Host_Records.png)
+![Namecheap Host Records]({{ site.url }}/assets/images/2017-10-15-Namecheap Domain with AWS/Namecheap_Host_Records.png)
 
 If it isn't present already, create a **CNAME Record**, and update it with the following values:  
 **Host:** *www*  
