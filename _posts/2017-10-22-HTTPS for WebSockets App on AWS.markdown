@@ -14,11 +14,11 @@ If you are using WebSockets in your application, then it is most likely that you
 
 ## Enabling HTTPS
 
-To use **HTTPS/SSL** with Elastic Beanstalk, we need to assign a certificate to the environment's load balancer. We will terminate **SSL** connections at our load balancer, and backend connections between the load balancer and EC 2 instances will use **TCP**. This approach takes the least work, and this is what I'm currently using for my application. If you are looking for something else, check out [this][Configuring HTTPS].
+To use **HTTPS/SSL** with Elastic Beanstalk, we need to assign a certificate to the environment's load balancer. We will terminate **SSL** connections at our load balancer, and backend connections between the load balancer and EC2 instances will use **TCP**. This approach takes the least work, and this is what I'm currently using for my application. If you are looking for something else, check out [this][Configuring HTTPS].
 
 If you haven't already, get a free SSL certificate for your domain name from [AWS Certificate Manager (ACM)].
 
-Then open your [Amazon EC 2 Console], and in the sidebar, click on **Load Balancers** under Load Balancing section. Then select your load balancer, and in the bottom pane select the **Listeners** tab.
+Then open your [Amazon EC2 Console], and in the sidebar, click on **Load Balancers** under Load Balancing section. Then select your load balancer, and in the bottom pane select the **Listeners** tab.
 
 Now click on on **Edit**, and add a new listener with the following values:  
 **Load Balancer Protocol:** SSL (Secure TCP) and **Load Balancer Port:** 443  
@@ -79,7 +79,7 @@ Modify **Load Balancer Protocol** and **Instance Protocol** from **TCP** to **HT
 
 So now if the client connects over HTTP, the load balancer forwards the **X-Forwarded-Proto** header to our server because the connection is made over **HTTP**. And using the above code snippet on our server, we are inspecting the header and redirecting to HTTPS/SSL when a user connects on HTTP. Problem solved!
 
-[Amazon EC 2 Console]:(https://us-east-2.console.aws.amazon.com/ec2)
+[Amazon EC2 Console]:(https://us-east-2.console.aws.amazon.com/ec2)
 [Configuring HTTPS]: (https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html)
 [AWS Certificate Manager (ACM)]: https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws
 [How to fix a website with mixed content]: https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content/How_to_fix_website_with_mixed_content
