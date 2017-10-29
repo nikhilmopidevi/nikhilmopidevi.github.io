@@ -40,4 +40,6 @@ Click on the **Configuration** link in the sidebar. Then go to **Load Balancing*
 
 Now you are all setup. Deploy your application, visit the URL of your app, and everything should be working as expected.
 
+If you want to enable HTTPS for your WebSockets app, check out my other [post]({{ site.baseurl }}{% post_url 2017-10-22-HTTPS for WebSockets App on AWS %}).
+
 [AWS Documentation]: https://aws.amazon.com/blogs/database/how-to-build-a-chat-application-with-amazon-elasticache-for-redis
