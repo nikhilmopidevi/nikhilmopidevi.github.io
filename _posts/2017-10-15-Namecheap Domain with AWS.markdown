@@ -40,11 +40,11 @@ You will find your host records in this section.
 
 If it isn't present already, create a **CNAME Record**, and update it with the following values:  
 **Host:** *www*  
-**Value:** *\<your bucket's endpoint\>*
+**Value:** *\<your endpoint URL>*
 
 Similarly, create a **URL Redirect Record** if not present, and fill in the following values:  
 **Host:** @  
-**Value:** *http://www.\<your domain\>.com*
+**Value:** *http://www.\<your domain\>*
 
 My website is at [www.nikhilmopidevi.com](http://www.nikhilmopidevi.com). So, I input *http://www.nikhilmopidevi.com* in the **Value** section. In the same way, enter your domain name in that value box.
 
