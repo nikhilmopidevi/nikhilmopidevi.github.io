@@ -40,7 +40,7 @@ You will find your host records in this section.
 
 If it isn't present already, create a **CNAME Record**, and update it with the following values:  
 **Host:** *www*  
-**Value:** *\<your endpoint URL>*
+**Value:** *\<your endpoint URL\>*
 
 Similarly, create a **URL Redirect Record** if not present, and fill in the following values:  
 **Host:** @  
