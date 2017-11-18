@@ -38,6 +38,6 @@ rm -rf /var/lib/xkb/*
 
 Now just restart your system. After logging in, you should see your new keys working as you want them to.
 
-[Sharpkeys]: https://sharpkeys.codeplex.com/
-[KeyTweak]: http://keytweak.en.softonic.com/
+[Sharpkeys]: https://github.com/randyrants/sharpkeys
+[KeyTweak]: https://keytweak.en.softonic.com
 
