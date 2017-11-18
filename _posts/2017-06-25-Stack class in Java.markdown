@@ -8,7 +8,7 @@ comments: true
 
 Stack is a linear data structure which follows the Last-In-First-Out (LIFO) approach, where the last element inserted is the first one to be removed.
 
-In this post, we'll see how to use the **Stack** class in Java to create a stack. Java provides the **Stack** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
+In this post, we'll see how to use the **Stack** class in Java to create a stack. Java provides the **Stack** class as part of the Java Collections Framework. For an overview of the Java Collections Framework, check out my post [Overview of the Java Collections Framework]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}){:target="_blank"}.
 
 Methods provided by the **Stack** class are:
 1. push(E element)
@@ -116,6 +116,6 @@ This call to the method returns the value **2**, because the string **"Apple"** 
 
 Now since you know how to use the **Stack** class in Java, check out other ways to create a stack:
 
-* [Stack using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-02-Stack using ArrayDeque class in Java %})
-* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList class in Java %})
+* [Stack using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-02-Stack using ArrayDeque class in Java %}){:target="_blank"}
+* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList class in Java %}){:target="_blank"}
 

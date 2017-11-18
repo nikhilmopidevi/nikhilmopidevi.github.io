@@ -8,7 +8,7 @@ comments: true
 
 Stack is a linear data structure which follows the Last-In-First-Out (LIFO) approach, where the last element inserted is the first one to be removed.
 
-In this post, we'll see how to implement a stack using **ArrayDeque** — a resizable array implementation of the **Deque** interface. Java provides the **ArrayDeque** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
+In this post, we'll see how to implement a stack using **ArrayDeque** — a resizable array implementation of the **Deque** interface. Java provides the **ArrayDeque** class as part of the Java Collections Framework. For an overview of the Java Collections Framework, check out my post [Overview of the Java Collections Framework]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}){:target="_blank"}.
 
 Some important methods in the **ArrayDeque** class are:
 1. push(E element)
@@ -20,7 +20,7 @@ Array deques have no capacity restrictions, which means they grow as necessary t
 
 **ArrayDeque** class prohibits `null` elements. Even if it had allowed, it is not recommended to insert nulls because `null` is used as a special return value by various methods to indicate that the deque is empty.
 
-According to Java Docs, **ArrayDeque** class is likely to be faster than [Stack]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %}) when used as a stack, and faster than [LinkedList]() when used as a queue.
+According to Java Docs, **ArrayDeque** class is likely to be faster than [Stack when used as a stack]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %}){:target="_blank"}, and faster than [LinkedList when used as a queue]({{ site.baseurl }}{% post_url 2017-07-05-Queue using LinkedList class in Java %}){:target="_blank"}.
 
 The following example demonstrates how to implement a stack using the **ArrayDeque** class.
 
@@ -114,6 +114,6 @@ The above `while` loop continues to execute until the stack is empty.
 
 Now since you know how to implement a stack using the **ArrayDeque** class, check out other ways to create a stack:
 
-* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList class in Java %})
-* [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %})
+* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList class in Java %}){:target="_blank"}
+* [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %}){:target="_blank"}
 

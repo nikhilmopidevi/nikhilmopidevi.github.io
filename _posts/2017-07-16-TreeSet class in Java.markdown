@@ -10,13 +10,13 @@ Set is a collection that cannot contain duplicate elements.
 
 **TreeSet** class is a **NavigableSet** implementation based on a **TreeMap**. It stores its elements in a red-black tree, which is a self-balancing binary search tree. 
 
-**TreeSet** is substantially slower than [HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}), but the elements are ordered based on their value.
+**TreeSet** is substantially slower than [HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}){:target="_blank"}, but the elements are ordered based on their value.
 
-**TreeSet** differs from [HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}) in that it orders its elements in ascending order. That is, regardless of the insertion order of the elements, all elements are ordered in ascending order (their natural ordering to be precise).
+**TreeSet** differs from [HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}){:target="_blank"} in that it orders its elements in ascending order. That is, regardless of the insertion order of the elements, all elements are ordered in ascending order (their natural ordering to be precise).
 
 **TreeSet** class doesn't allow the `null` element.
 
-Java provides the **TreeSet** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
+Java provides the **TreeSet** class as part of the Java Collections Framework. For an overview of the Java Collections Framework, check out my post [Overview of the Java Collections Framework]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}){:target="_blank"}.
 
 The following example illustrates the **TreeSet** class.
 
@@ -63,8 +63,9 @@ The above program showed the use of some of the common methods of the **TreeSet*
 
 Now since you know how to use the **TreeSet** class, check out other implementations of the **Set** interface:
 
-* [HashSet class in Java]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %})
-* [LinkedHashSet class in Java]({{ site.baseurl }}{% post_url 2017-07-15-LinkedHashSet class in Java %})
+* [HashSet class in Java]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}){:target="_blank"}
+* [LinkedHashSet class in Java]({{ site.baseurl }}{% post_url 2017-07-15-LinkedHashSet class in Java %}){:target="_blank"}
 
 [official docs]: https://docs.oracle.com/javase/9/docs/api/java/util/TreeSet.html
+{:target="_blank"}
 

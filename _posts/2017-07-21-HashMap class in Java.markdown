@@ -12,7 +12,7 @@ Map is an object that maps keys to values. A map cannot contain duplicate keys.
 
 **HashMap** class permits `null` values and the `null` key.
 
-Java provides the **HashMap** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
+Java provides the **HashMap** class as part of the Java Collections Framework. For an overview of the Java Collections Framework, check out my post [Overview of the Java Collections Framework]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}){:target="_blank"}.
 
 The following example illustrates the **HashMap** class.
 
@@ -72,8 +72,9 @@ The above program showed the use of some of the common methods of the **HashMap*
 
 Now since you know how to use the **HashMap** class, check out other implementations of the **Map** interface:
 
-* [LinkedHashMap class in Java]({{ site.baseurl }}{% post_url 2017-07-22-LinkedHashMap class in Java %})
-* [TreeMap class in Java]({{ site.baseurl }}{% post_url 2017-07-23-TreeMap class in Java %})
+* [LinkedHashMap class in Java]({{ site.baseurl }}{% post_url 2017-07-22-LinkedHashMap class in Java %}){:target="_blank"}
+* [TreeMap class in Java]({{ site.baseurl }}{% post_url 2017-07-23-TreeMap class in Java %}){:target="_blank"}
 
 [official docs]: https://docs.oracle.com/javase/9/docs/api/java/util/HashMap.html
+{:target="_blank"}
 

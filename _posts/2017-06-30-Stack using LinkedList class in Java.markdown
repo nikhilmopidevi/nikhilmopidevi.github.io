@@ -8,7 +8,7 @@ comments: true
 
 Stack is a linear data structure which follows the Last-In-First-Out (LIFO) approach, where the last element inserted is the first one to be removed.
 
-In this post, we'll see how to implement a stack using the **LinkedList** class. Java provides the **LinkedList** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
+In this post, we'll see how to implement a stack using the **LinkedList** class. Java provides the **LinkedList** class as part of the Java Collections Framework. For an overview of the Java Collections Framework, check out my post [Overview of the Java Collections Framework]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}){:target="_blank"}.
 
 Some important methods provided by the **LinkedList** class are:
 1. push(E element)
@@ -108,6 +108,6 @@ The above `while` loop continues to execute until the stack is empty.
 
 Now since you know how to implement a stack using the **LinkedList** class, check out other ways to create a stack:
 
-* [Stack using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-02-Stack using ArrayDeque class in Java %})
-* [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %})
+* [Stack using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-02-Stack using ArrayDeque class in Java %}){:target="_blank"}
+* [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %}){:target="_blank"}
 

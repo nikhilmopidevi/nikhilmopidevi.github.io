@@ -19,19 +19,19 @@ Collections in Java have several classes and interfaces, but we will not cover e
 ![Table]({{ site.url }}/assets/images/2017-06-19-Overview of the Java Collections Framework/table.jpg)
 
 ## List
-List is an ordered collection, also known as a sequence. List may contain duplicate elements. Elements can be inserted or accessed using a zero-based index. 
+List is an ordered collection, also known as a sequence. List may contain duplicate elements. Elements can be inserted or accessed using a zero-based index.
 
 Two mostly used implementations of the List interface are:
 
 * ArrayList
 * LinkedList
 
-[ArrayList]({{ site.baseurl }}{% post_url 2017-07-08-ArrayList class in Java %}) - It is a resizable-array implementation of the List interface. 
+[ArrayList]({{ site.baseurl }}{% post_url 2017-07-08-ArrayList class in Java %}){:target="_blank"} - It is a resizable-array implementation of the List interface.
 
-[LinkedList]({{ site.baseurl }}{% post_url 2017-07-09-LinkedList class in Java %}) - It is a doubly-linked list implementation of the List and Deque interfaces.
+[LinkedList]({{ site.baseurl }}{% post_url 2017-07-09-LinkedList class in Java %}){:target="_blank"} - It is a doubly-linked list implementation of the List and Deque interfaces.
 
 ## Set
-Set is a collection that cannot contain duplicate elements. It may contain at most one null element (not more than one because no duplicates are allowed in a set). 
+Set is a collection that cannot contain duplicate elements. It may contain at most one null element (not more than one because no duplicates are allowed in a set).
 
 There are three main implementations of the Set interface:
 
@@ -39,14 +39,14 @@ There are three main implementations of the Set interface:
 * LinkedHashSet
 * TreeSet
 
-[HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}) - It stores its elements in a hash table. HashSet has best performance among all the implementations, but it makes no guarantees concerning the order of iteration.
+[HashSet]({{ site.baseurl }}{% post_url 2017-07-14-HashSet class in Java %}){:target="_blank"} - It stores its elements in a hash table. HashSet has best performance among all the implementations, but it makes no guarantees concerning the order of iteration.
 
-[LinkedHashSet]({{ site.baseurl }}{% post_url 2017-07-15-LinkedHashSet class in Java %}) - It stores its elements in a hash table with a linked list. Here, the insertion order is preserved.
+[LinkedHashSet]({{ site.baseurl }}{% post_url 2017-07-15-LinkedHashSet class in Java %}){:target="_blank"} - It stores its elements in a hash table with a linked list. Here, the insertion order is preserved.
 
-[TreeSet]({{ site.baseurl }}{% post_url 2017-07-16-TreeSet class in Java %}) - It stores its elements in a red-black tree, which is a self-balancing binary search tree. It is substantially slower than HashSet, but the elements are ordered based on their value.
+[TreeSet]({{ site.baseurl }}{% post_url 2017-07-16-TreeSet class in Java %}){:target="_blank"} - It stores its elements in a red-black tree, which is a self-balancing binary search tree. It is substantially slower than HashSet, but the elements are ordered based on their value.
 
 ## Map
-Map is an object that maps keys to values. A map cannot contain duplicate keys. 
+Map is an object that maps keys to values. A map cannot contain duplicate keys.
 
 There are three primary implementations of the Map interface:
 
@@ -54,28 +54,28 @@ There are three primary implementations of the Map interface:
 * LinkedHashMap
 * TreeMap
 
-[HashMap]({{ site.baseurl }}{% post_url 2017-07-21-HashMap class in Java %}) - It makes no guarantees concerning the order of iteration.
+[HashMap]({{ site.baseurl }}{% post_url 2017-07-21-HashMap class in Java %}){:target="_blank"} - It makes no guarantees concerning the order of iteration.
 
-[LinkedHashMap]({{ site.baseurl }}{% post_url 2017-07-22-LinkedHashMap class in Java %}) - The elements are ordered based on the order they were inserted.
+[LinkedHashMap]({{ site.baseurl }}{% post_url 2017-07-22-LinkedHashMap class in Java %}){:target="_blank"} - The elements are ordered based on the order they were inserted.
 
-[TreeMap]({{ site.baseurl }}{% post_url 2017-07-23-TreeMap class in Java %}) - It stores its elements in a red-black tree. It is substantially slower than HashMap, but the elements are ordered based on their value.
+[TreeMap]({{ site.baseurl }}{% post_url 2017-07-23-TreeMap class in Java %}){:target="_blank"} - It stores its elements in a red-black tree. It is substantially slower than HashMap, but the elements are ordered based on their value.
 
 ## Stack
 Stack is a linear data structure which follows the Last-In-First-Out (LIFO) approach, where the last element inserted is the first one to be removed.
 
-To make use of stack in our programs, we can either use the **Stack class** or use an implementation of the **Deque** interface such as **ArrayDeque** or **LinkedList** to implement a stack. 
+To make use of stack in our programs, we can either use the **Stack class** or use an implementation of the **Deque** interface such as **ArrayDeque** or **LinkedList** to implement a stack.
 
-* [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %})
-* [Stack using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-02-Stack using ArrayDeque class in Java %})
-* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList class in Java %})
+* [Stack class]({{ site.baseurl }}{% post_url 2017-06-25-Stack class in Java %}){:target="_blank"}
+* [Stack using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-02-Stack using ArrayDeque class in Java %}){:target="_blank"}
+* [Stack using LinkedList]({{ site.baseurl }}{% post_url 2017-06-30-Stack using LinkedList class in Java %}){:target="_blank"}
 
-## Queue 
+## Queue
 Queue is a linear data structure which orders elements in a First-In-First-Out (FIFO) manner.
 
 For implementing queue, we can use an implementation of the **Deque** interface such as **ArrayDeque** or **LinkedList**.
 
-* [Queue using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-06-Queue using ArrayDeque class in Java %})
-* [Queue using LinkedList]({{ site.baseurl }}{% post_url 2017-07-05-Queue using LinkedList class in Java %})
+* [Queue using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-06-Queue using ArrayDeque class in Java %}){:target="_blank"}
+* [Queue using LinkedList]({{ site.baseurl }}{% post_url 2017-07-05-Queue using LinkedList class in Java %}){:target="_blank"}
 
 [Java Collections Framework]: https://docs.oracle.com/javase/tutorial/collections/intro/index.html
-
+{:target="_blank"}

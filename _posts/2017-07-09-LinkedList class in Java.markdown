@@ -10,7 +10,7 @@ comments: true
 
 The **LinkedList** class also offers a lot of useful methods which we can use in our programs. It implements all optional list operations, and permits all elements, including `null`.
 
-Java provides the **LinkedList** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
+Java provides the **LinkedList** class as part of the Java Collections Framework. For an overview of the Java Collections Framework, check out my post [Overview of the Java Collections Framework]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}){:target="_blank"}.
 
 The following example illustrates the **LinkedList** class.
 
@@ -84,7 +84,8 @@ Number of elements in the linked list is 5
 
 The above program showed the use of some of the common methods of the **LinkedList** class. For a complete list of all the available methods, refer the [official docs].
 
-Now since you know how to use the **LinkedList** class, check out another implementation of the **List** interface, the [ArrayList class in Java]({{ site.baseurl }}{% post_url 2017-07-08-ArrayList class in Java %}).
+Now since you know how to use the **LinkedList** class, check out another implementation of the **List** interface, the [ArrayList class in Java]({{ site.baseurl }}{% post_url 2017-07-08-ArrayList class in Java %}){:target="_blank"}.
 
 [official docs]: https://docs.oracle.com/javase/9/docs/api/java/util/LinkedList.html
+{:target="_blank"}
 

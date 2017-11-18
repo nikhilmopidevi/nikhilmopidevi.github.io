@@ -10,11 +10,11 @@ In this post, we will first see how to enable HTTPS on your WebSockets applicati
 
 I'm hosting my app on AWS Elastic Beanstalk, so in this post I'll be referring to Elastic Beanstalk whenever needed. But the process should mostly be the same for other AWS products involving load balancers.
 
-If you are using WebSockets in your application, then it is most likely that you have configured your load balancer to listen on **TCP**. If you are having trouble setting up your WebSockets app, refer my other [post]({{ site.baseurl }}{% post_url 2017-10-18-WebSockets with AWS Elastic Beanstalk %}).
+If you are using WebSockets in your application, then it is most likely that you have configured your load balancer to listen on **TCP**. If you are having trouble setting up your WebSockets app, refer my post [WebSockets with AWS Elastic Beanstalk]({{ site.baseurl }}{% post_url 2017-10-18-WebSockets with AWS Elastic Beanstalk %}){:target="_blank"}.
 
 ## Enabling HTTPS
 
-To use **HTTPS/SSL** with Elastic Beanstalk, we need to assign a certificate to the environment's load balancer. We will terminate **SSL** connections at our load balancer, and backend connections between the load balancer and EC2 instances will use **TCP**. This approach takes the least work, and this is what I'm currently using for my application. If you are looking for something else, check out [this][Configuring HTTPS].
+To use **HTTPS/SSL** with Elastic Beanstalk, we need to assign a certificate to the environment's load balancer. We will terminate **SSL** connections at our load balancer, and backend connections between the load balancer and EC2 instances will use **TCP**. This approach takes the least work, and this is what I'm currently using for my application. If you are looking for something else, refer [AWS Documentation on configuring HTTPS].
 
 If you haven't already, get a free SSL certificate for your domain name from [AWS Certificate Manager (ACM)].
 
@@ -34,7 +34,7 @@ Now, you can verify that HTTPS is working by going to your application's domain 
 
 If the HTTPS connection is failing, open the console and check for errors.
 
-If you are getting **Mixed Content Errors**, replace all *http://* links with *https://*. For more info, refer [this][How to fix a website with mixed content] link.
+If you are getting **Mixed Content Errors**, replace all *http://* links with *https://*. For more info, refer [MDN Web Docs on fixing a website with blocked mixed content].
 
 Also make sure that you are not connecting to a *http://* link in your client side socket connection. Either connect over *https://* or leave out the URL like shown below.
 
@@ -42,7 +42,7 @@ Also make sure that you are not connecting to a *http://* link in your client si
 var socket = io.connect();
 {% endhighlight %}
 
-When a URL is not specified, as in this case, **Socket.io** uses the domain and port from the current web page. More info [here](https://stackoverflow.com/a/28264959/2924577).
+When a URL is not specified, as in this case, **Socket.io** uses the domain and port from the current web page. More info in this [StackOverflow answer](https://stackoverflow.com/a/28264959/2924577){:target="_blank"}.
 
 Resolve all the errors and HTTPS should be working.
 
@@ -69,9 +69,9 @@ It is important to note that a load balancer only forwards this X-Forwarded-Prot
 
 So, how do we check if the request is made over **HTTP?**
 
-One solution is to enable [Proxy Protocol], but this requires more configuration.
+One solution is to [enable Proxy Protocol], but this requires more configuration.
 
-Another workaround which I found from [this](https://stackoverflow.com/a/33530080/2924577) StackOverflow answer solves the problem in a much simpler way. So, let's implement it.
+Another workaround which I found from this [StackOverflow answer](https://stackoverflow.com/a/33530080/2924577){:target="_blank"} solves the problem in a much simpler way. So, let's implement it.
 
 Modify **Load Balancer Protocol** and **Instance Protocol** from **TCP** to **HTTP**. Now, the Listeners tab should look like this:
 
@@ -79,8 +79,13 @@ Modify **Load Balancer Protocol** and **Instance Protocol** from **TCP** to **HT
 
 So now if the client connects over HTTP, the load balancer forwards the **X-Forwarded-Proto** header to our server because the connection is made over **HTTP**. And using the above code snippet on our server, we are inspecting the header and redirecting to HTTPS/SSL when a user connects on HTTP. Problem solved!
 
-[Amazon EC2 Console]:(https://us-east-2.console.aws.amazon.com/ec2)
-[Configuring HTTPS]: (https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html)
+[AWS Documentation on configuring HTTPS]: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html
+{:target="_blank"}
 [AWS Certificate Manager (ACM)]: https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws
-[How to fix a website with mixed content]: https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content/How_to_fix_website_with_mixed_content
-[Proxy Protocol]: https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-proxy-protocol.html
+{:target="_blank"}	
+[Amazon EC2 Console]: https://us-east-2.console.aws.amazon.com/ec2
+{:target="_blank"}
+[MDN Web Docs on fixing a website with blocked mixed content]: https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content/How_to_fix_website_with_mixed_content
+{:target="_blank"}
+[enable Proxy Protocol]: https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-proxy-protocol.html
+{:target="_blank"}

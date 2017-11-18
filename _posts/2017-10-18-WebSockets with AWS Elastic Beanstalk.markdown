@@ -6,7 +6,7 @@ tags: [WebSockets, Socket.io, Node.js, AWS, Amazon Web Services, AWS Elastic Bea
 comments: true
 ---
 
-One of my recent projects [www.grequiz.com](https://www.grequiz.com), makes use of WebSockets with the help of **Socket.io**. I used AWS Elastic Beanstalk to host my web application, and configuring it to work with WebSockets was nothing less than a feat.
+One of my recent projects [www.grequiz.com](https://www.grequiz.com){:target="_blank"}, makes use of WebSockets with the help of **Socket.io**. I used AWS Elastic Beanstalk to host my web application, and configuring it to work with WebSockets was nothing less than a feat.
 
 In this post, I'll show you how to setup your WebSockets application on AWS Elastic Beanstalk.
 
@@ -40,6 +40,7 @@ Click on the **Configuration** link in the sidebar. Then go to **Load Balancing*
 
 Now you are all setup. Deploy your application, visit the URL of your app, and everything should be working as expected.
 
-If you want to enable HTTPS for your WebSockets app, check out my other [post]({{ site.baseurl }}{% post_url 2017-10-22-HTTPS for WebSockets App on AWS %}).
+If you want to enable HTTPS for your WebSockets app, check out my post [HTTPS for WebSockets App on AWS]({{ site.baseurl }}{% post_url 2017-10-22-HTTPS for WebSockets App on AWS %}){:target="_blank"}.
 
 [AWS Documentation]: https://aws.amazon.com/blogs/database/how-to-build-a-chat-application-with-amazon-elasticache-for-redis
+{:target="_blank"}

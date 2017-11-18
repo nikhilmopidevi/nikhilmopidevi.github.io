@@ -10,13 +10,13 @@ Map is an object that maps keys to values. A map cannot contain duplicate keys.
 
 **TreeMap** class is a red-black tree based **NavigableMap** implementation. It stores its elements in a red-black tree, which is a self-balancing binary search tree.
 
-**TreeMap** is substantially slower than [HashMap]({{ site.baseurl }}{% post_url 2017-07-21-HashMap class in Java %}), but the elements are ordered based on their value.
+**TreeMap** is substantially slower than [HashMap]({{ site.baseurl }}{% post_url 2017-07-21-HashMap class in Java %}){:target="_blank"}, but the elements are ordered based on their value.
 
-**TreeMap** differs from [HashMap]({{ site.baseurl }}{% post_url 2017-07-21-HashMap class in Java %}) in that it orders its elements in ascending order of their keys. That is, regardless of the insertion order of the elements, all elements are ordered in ascending order of their keys (their natural ordering to be precise).
+**TreeMap** differs from [HashMap]({{ site.baseurl }}{% post_url 2017-07-21-HashMap class in Java %}){:target="_blank"} in that it orders its elements in ascending order of their keys. That is, regardless of the insertion order of the elements, all elements are ordered in ascending order of their keys (their natural ordering to be precise).
 
 **TreeMap** class permits `null` values but not the `null` key.
 
-Java provides the **TreeMap** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
+Java provides the **TreeMap** class as part of the Java Collections Framework. For an overview of the Java Collections Framework, check out my post [Overview of the Java Collections Framework]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}){:target="_blank"}.
 
 The following example illustrates the **TreeMap** class.
 
@@ -76,8 +76,9 @@ The above program showed the use of some of the common methods of the **TreeMap*
 
 Now since you know how to use the **TreeMap** class, check out other implementations of the **Map** interface:
 
-* [HashMap class in Java]({{ site.baseurl }}{% post_url 2017-07-21-HashMap class in Java %})
-* [LinkedHashMap class in Java]({{ site.baseurl }}{% post_url 2017-07-22-LinkedHashMap class in Java %})
+* [HashMap class in Java]({{ site.baseurl }}{% post_url 2017-07-21-HashMap class in Java %}){:target="_blank"}
+* [LinkedHashMap class in Java]({{ site.baseurl }}{% post_url 2017-07-22-LinkedHashMap class in Java %}){:target="_blank"}
 
 [official docs]: https://docs.oracle.com/javase/9/docs/api/java/util/TreeMap.html
+{:target="_blank"}
 

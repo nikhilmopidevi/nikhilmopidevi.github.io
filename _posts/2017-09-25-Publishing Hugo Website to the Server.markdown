@@ -8,7 +8,7 @@ comments: true
 
 [Hugo] is a static site generator which makes creating websites easy.
 
-The official [Hugo documentation] does a great job of getting you started with **Hugo**, so I won't go over the same. But like me, if you are new to creating websites, you will most likely face a problem when you want to put your Hugo website on the web.
+The official [Hugo Documentation] does a great job of getting you started with **Hugo**, so I won't go over the same. But like me, if you are new to creating websites, you will most likely face a problem when you want to put your Hugo website on the web.
 
 You may be confused about what files and folders to upload to your web server. I personally feel that this step of the process isn't much obvious to newbies and is hidden somewhere deep in the official docs.
 
@@ -33,4 +33,6 @@ This will generate a a `public` folder, and now your directory should look somet
 Now, just go ahead and upload the contents of this public folder to your server or cloud. Your awesome website is now available for the whole world!
 
 [Hugo]: https://gohugo.io
-[Hugo documentation]: https://gohugo.io/documentation
+{:target="_blank"}
+[Hugo Documentation]: https://gohugo.io/documentation
+{:target="_blank"}

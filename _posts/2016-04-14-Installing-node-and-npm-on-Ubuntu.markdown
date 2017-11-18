@@ -32,7 +32,7 @@ make install #this step takes some time
 curl https://www.npmjs.org/install.sh | sh
 {% endhighlight %}
 
-The above method of installation is strongly inspired from this [gist](https://gist.github.com/isaacs/579814).
+The above method of installation is strongly inspired from this [gist](https://gist.github.com/isaacs/579814){:target="_blank"}.
 
 Now you have node and npm installed on your machine. You can check it by running the commands below.
 

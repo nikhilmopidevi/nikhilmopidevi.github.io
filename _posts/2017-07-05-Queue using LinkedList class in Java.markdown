@@ -8,7 +8,7 @@ comments: true
 
 Queue is a linear data structure which orders elements in a First-In-First-Out (FIFO) manner, where the first element inserted is the first one to be removed.
 
-In this post, we'll see how to implement a queue using the **LinkedList** class. Java provides the **LinkedList** class as part of the Java Collections Framework. [Here]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}) is an overview of the Java Collections Framework.
+In this post, we'll see how to implement a queue using the **LinkedList** class. Java provides the **LinkedList** class as part of the Java Collections Framework. For an overview of the Java Collections Framework, check out my post [Overview of the Java Collections Framework]({{ site.baseurl }}{% post_url 2017-06-19-Overview of the Java Collections Framework %}){:target="_blank"}.
 
 Some important methods provided by the **LinkedList** class for implementing a queue are:
 1. add(E element)
@@ -85,6 +85,6 @@ This method tests if the queue is empty. It returns **true** if the queue is emp
 
 The methods **offer(E element)**, **element()**, and **remove()** function similar to the methods **add(E element)**, **peek()**, and **poll()** respectively but they don't throw any exception if insertion is not possible, or return `null` if the queue is empty.
 
-Now since you know how to implement a queue using the **LinkedList** class, check out how to create a [Queue using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-06-Queue using ArrayDeque class in Java %}).
+Now since you know how to implement a queue using the **LinkedList** class, check out how to create a [Queue using ArrayDeque]({{ site.baseurl }}{% post_url 2017-07-06-Queue using ArrayDeque class in Java %}){:target="_blank"}.
 
 

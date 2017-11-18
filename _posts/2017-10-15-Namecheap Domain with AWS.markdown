@@ -30,7 +30,7 @@ You should find the **endpoint** of your bucket there. Now copy that link.
 
 ## Namecheap
 
-Head over to [namecheap.com](https://www.namecheap.com) and open the **Advanced DNS** tab of your registered domain.
+Head over to [namecheap.com](https://www.namecheap.com){:target="_blank"} and open the **Advanced DNS** tab of your registered domain.
 
 ![Namecheap Advanced DNS]({{ site.url }}/assets/images/2017-10-15-Namecheap Domain with AWS/Namecheap_Advanced_DNS.png)
 
@@ -46,6 +46,6 @@ Similarly, create a **URL Redirect Record** if not present, and fill in the foll
 **Host:** @  
 **Value:** *http://www.\<your domain\>/*
 
-My website is at [www.nikhilmopidevi.com](http://www.nikhilmopidevi.com). So, I input *http://www.nikhilmopidevi.com* in the **Value** section. In the same way, enter your domain name in that value box.
+My website is at [www.nikhilmopidevi.com](http://www.nikhilmopidevi.com){:target="_blank"}. So, I input *http://www.nikhilmopidevi.com* in the **Value** section. In the same way, enter your domain name in that value box.
 
 That's it. Allow some time for DNS propagation. In most cases, it doesn't take more than ten minutes. After which, your website should be up and running.
