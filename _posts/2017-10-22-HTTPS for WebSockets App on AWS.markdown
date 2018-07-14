@@ -34,7 +34,7 @@ Now, you can verify that HTTPS is working by going to your application's domain 
 
 If the HTTPS connection is failing, open the console and check for errors.
 
-If you are getting **Mixed Content Errors**, replace all *http://* links with *https://*. For more info, refer [MDN Web Docs on fixing a website with blocked mixed content].
+If you are getting **Mixed Content Errors**, replace all *http://* links on your website with *https://*. For more info, refer [MDN Web Docs on fixing a website with blocked mixed content].
 
 Also make sure that you are not connecting to a *http://* link in your client side socket connection. Either connect over *https://* or leave out the URL like shown below.
 
@@ -82,7 +82,7 @@ So now if the client connects over HTTP, the load balancer forwards the **X-Forw
 [AWS Documentation on configuring HTTPS]: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html
 {:target="_blank"}
 [AWS Certificate Manager (ACM)]: https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws
-{:target="_blank"}	
+{:target="_blank"}
 [Amazon EC2 Console]: https://us-east-2.console.aws.amazon.com/ec2
 {:target="_blank"}
 [MDN Web Docs on fixing a website with blocked mixed content]: https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content/How_to_fix_website_with_mixed_content
