@@ -51,6 +51,16 @@ Following methods are used for filtering and transforming an array.
 - [splice()][Array.prototype.splice()] - This method modifies the contents of the array by adding or removing new elements in-place.
 - [join()][Array.prototype.join()] - This method is the opposite of [String.prototype.split()][String.prototype.split()]. It creates and returns a new string by concatenating all array elements, separating them by a specified separator string.
 
+## Object methods
+Following are some of the common methods from the [Object][Object] global object.
+
+- [keys()][Object.keys()] - This method returns an array of a given object's own enumerable property names, in the same order as we get with a normal loop.
+- [values()][Object.values()] - This method returns an array of a given object's own enumerable property values, in the same order as that provided by a [for...in][for...in] loop.
+- [entries()][Object.entries()] - This method returns an array of a given object's own enumerable string-keyed property `[key, value]` pairs, in the same order as that provided by a [for...in][for...in] loop.
+- [fromEntries()][Object.fromEntries()] - This method is the opposite of `Object.entries()`. It transforms a list of key-value pairs into an object.
+
+One of the best ways to learn more these methods is to click on their links, read the documentation, and play around with some examples.
+
 [String]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String 
 {:target="_blank"}
 [String.prototype.indexOf()]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf 
@@ -94,4 +104,17 @@ Following methods are used for filtering and transforming an array.
 [Array.prototype.splice()]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice 
 {:target="_blank"}
 [Array.prototype.join()]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join 
+{:target="_blank"}
+
+[Object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+{:target="_blank"}
+[Object.keys()]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+{:target="_blank"}
+[Object.values()]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values
+{:target="_blank"}
+[for...in]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
+{:target="_blank"}
+[Object.entries()]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+{:target="_blank"}
+[Object.fromEntries()]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries
 {:target="_blank"}
