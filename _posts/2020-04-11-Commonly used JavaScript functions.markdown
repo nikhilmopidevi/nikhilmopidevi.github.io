@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Commonly used JavaScript String, Array, and Object methods"
-date: 2019-11-28 10:00:00 +0530
+date: 2020-04-11 16:00:00 -0700
 tags: [JavaScript, functions, methods]
 comments: true
 ---
@@ -34,14 +34,14 @@ Following are some of the common methods from the [Array][Array] global object.
 
 Just like with `String` methods, use `indexOf()` if you need the position of the value in the array. Use `includes()` if you are only concerned whether the value exists, it makes intent of the code more clear.
 
-`indexOf()` and `includes()` use [strict equality][Strict equality] (the same method used by the === or triple-equals operator) for comparing the search element with the elements of the Array. So, when used on an array containing objects, object references are compared not the actual values.
+`indexOf()` and `includes()` use [strict equality][Strict equality] (the same method used by the triple-equals operator ===) for comparing the search element with the elements of the Array. So, when used on an array containing objects, object references are compared not the actual values.
 
 Therefore, when dealing with array of objects, use `some()`, `find()`, or `findIndex()` methods.
 
 - [find()][Array.prototype.find()] - This method returns the value of the first element in the array that satisfies the provided testing function. Otherwise, `undefined` is returned.
 - [findIndex()][Array.prototype.findIndex()] - This method returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1.
 - [some()][Array.prototype.some()] - This method tests whether **at least one element** in the array passes the test implemented by the provided function. It returns _true_ or _false_ appropriately.
-- [every()][Array.prototype.every()] - This method tests whether **all elements** in the array passes the test implemented by the provided function. It returns _true_ or _false_ appropriately.
+- [every()][Array.prototype.every()] - This method tests whether **all elements** in the array pass the test implemented by the provided function. It returns _true_ or _false_ appropriately.
 
 Following methods are used for filtering and transforming an array.
 
