@@ -2,7 +2,7 @@
 layout: post
 title: "Iterating over Object properties in JavaScript"
 date: 2020-04-13 20:00:00 -0700
-tags: [JavaScript, Object]
+tags: [JavaScript, Objects]
 comments: true
 ---
 

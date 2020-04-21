@@ -2,7 +2,7 @@
 layout: post
 title: "Commonly used JavaScript functions"
 date: 2020-04-11 16:00:00 -0700
-tags: [JavaScript, functions, methods]
+tags: [JavaScript, Functions, Methods]
 comments: true
 ---
 
