@@ -102,7 +102,7 @@ At first glance, the above code looks good. But we should observe that we are as
 
 If we print `productsInUSD` array elements to the console, we can see that they are modified and now contain prices in INR. This isn't desired and breaks functionality in other parts of our application.
 
-To avoid this, clone the object before assigning. There are several ways to clone an object, let us use `JSON.parse(JSON.stringify(object))` for this example.
+To avoid this, clone the object before assigning. There are [several ways to clone an object]({{ site.baseurl }}{% post_url 2020-05-09-Cloning Objects in JavaScript %}){:target="_blank"}, let us use `JSON.parse(JSON.stringify(object))` for this example.
 
 {% highlight javascript %}
 
