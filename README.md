@@ -1,1 +1,0 @@
-# https://nikhilmopidevi.github.io
